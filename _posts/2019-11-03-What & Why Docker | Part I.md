@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What & Why Docker | Part I"
-author: sal
+author: afikur
 categories: [docker]
 image: assets/images/4.jpg
 ---
@@ -17,7 +17,7 @@ But now let’s start by answering the question – why docker?
 
 May be in the middle of the night you woke up seeing a dream of million dollar idea and decided to write the application right away. The application has some life cycle. First you have to build the application, then run it, then distribute it then you need to maintain or manage the application.
 
-![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/application-lifecycle-docker-lesson-afikur.com.jpg?alt=media&token=c560c14e-6d67-4beb-b91c-8809b4441d35)
+![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/application-lifecycle-docker-lesson-afikur.com.jpg?alt=media&token=c560c14e-6d67-4beb-b91c-8809b4441d35?style=centerme)
 
 You decided to write the application but you’ve some dependencies for that like language, dbs, servers, tools etc.
 
