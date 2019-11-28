@@ -17,7 +17,7 @@ But now let’s start by answering the question – why docker?
 
 May be in the middle of the night you woke up seeing a dream of million dollar idea and decided to write the application right away. The application has some life cycle. First you have to build the application, then run it, then distribute it then you need to maintain or manage the application.
 
-![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/application-lifecycle-docker-lesson-afikur.com.jpg?alt=media&token=c560c14e-6d67-4beb-b91c-8809b4441d35?style=centerme)
+![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/application-lifecycle-docker-lesson-afikur.com.jpg?alt=media&token=c560c14e-6d67-4beb-b91c-8809b4441d35&style=centerme)
 
 You decided to write the application but you’ve some dependencies for that like language, dbs, servers, tools etc.
 
@@ -32,7 +32,7 @@ Let’s just imagine you’ll be needing these following technologies to build y
 
 You started installing each of those in your system. But CRAP!! You might have faced something like this scenario.
 
-![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/application-installer-lifecycle-docker-lesson-afikur.com.jpg?alt=media&token=973d3622-ce05-4b8b-a01e-3db4a9560ebb)
+![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/application-installer-lifecycle-docker-lesson-afikur.com.jpg?alt=media&token=973d3622-ce05-4b8b-a01e-3db4a9560ebb&style=centerme)
 
 Sometimes or should I say most of the times running an installer leads to an error. You troubleshoot it, then re run it and then get another error. Again troubleshoot it and re-run. And may be finally doing these steps a few times you successfully install the dependency in your system. But in the meantime, you’ve successfully wasted 8-10 hours just for creating a development environment in your computer. Phew.. Finally you started actual coding.
 
@@ -40,7 +40,7 @@ May be after developing some modules you decided to hire 3 more people for your 
 
 And guess what! Each of them started by doing installing the dependencies. And they need to setup the exact same version of your environment. Maybe they already had installed some of the dependencies with older version. It will conflict with the newer version. At the end each of them waste some amounts of times just for getting their environment ready. What a shameful way of wasting time!!
 
-![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/each-use-needs-to-setup-exact-environment-docker-lesson-afikur.com.jpg?alt=media&token=4b720a9b-46aa-48c1-90f2-8b564f6411d8)
+![img](https://firebasestorage.googleapis.com/v0/b/afikurcom.appspot.com/o/each-use-needs-to-setup-exact-environment-docker-lesson-afikur.com.jpg?alt=media&token=4b720a9b-46aa-48c1-90f2-8b564f6411d8&style=centerme)
 
 Each of the team members need exact same version of every tools and technologies
 
