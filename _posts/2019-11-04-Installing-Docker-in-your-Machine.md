@@ -3,11 +3,8 @@ layout: post
 title: "Installing Docker in your Machine"
 author: afikur
 categories: [docker]
-image: assets/images/1.jpg
-
----
-
-Docker comes in two flavors.
+image: assets/images/docker3.jpg
+---Docker comes in two flavors.
 
 - The Community Edition (CE)
 - The Enterprise Edition (EE)
@@ -26,19 +23,19 @@ Docker Engine – Community is available on multiple platforms. Use the followin
 
 #### Desktop
 
-| Platform                                                     | x86_64 |
-| :----------------------------------------------------------- | :----: |
-| [Docker Desktop for Mac (macOS)](https://docs.docker.com/docker-for-mac/install/) |   🗹    |
+| Platform                                                                                                 | x86_64 |
+| :------------------------------------------------------------------------------------------------------- | :----: |
+| [Docker Desktop for Mac (macOS)](https://docs.docker.com/docker-for-mac/install/)                        |   🗹    |
 | [Docker Desktop for Windows (Microsoft Windows 10)](https://docs.docker.com/docker-for-windows/install/) |   🗹    |
 
 #### Server
 
-| Platform                                                     | x86_64 / amd64 | ARM  | ARM64 / AARCH64 | IBM Power (ppc64le) | IBM Z (s390x) |
-| :----------------------------------------------------------- | :------------: | :--: | :-------------: | :-----------------: | :-----------: |
-| [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/) |       🗹        |      |        🗹        |                     |               |
-| [Debian](https://docs.docker.com/install/linux/docker-ce/debian/) |       🗹        |  🗹   |        🗹        |                     |               |
-| [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/) |       🗹        |      |        🗹        |                     |               |
-| [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) |       🗹        |  🗹   |        🗹        |          🗹          |       🗹       |
+| Platform                                                          | x86_64 / amd64 | ARM | ARM64 / AARCH64 | IBM Power (ppc64le) | IBM Z (s390x) |
+| :---------------------------------------------------------------- | :------------: | :-: | :-------------: | :-----------------: | :-----------: |
+| [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/) |       🗹        |     |        🗹        |                     |               |
+| [Debian](https://docs.docker.com/install/linux/docker-ce/debian/) |       🗹        |  🗹  |        🗹        |                     |               |
+| [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/) |       🗹        |     |        🗹        |                     |               |
+| [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) |       🗹        |  🗹  |        🗹        |          🗹          |       🗹       |
 
 After completing installing docker. Run the following command in your terminal/command prompt/powershell
 
@@ -49,4 +46,3 @@ docker --version
 If you can see the version number, congrats! you successfully installed docker in your machine.
 
 In the next article, we’ll create our first docker container
-

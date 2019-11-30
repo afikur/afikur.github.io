@@ -3,7 +3,7 @@ layout: post
 title: "What & Why Docker | Part II"
 author: afikur
 categories: [docker]
-image: assets/images/3.jpg
+image: assets/images/docker2.jpg
 ---
 
 Before starting answering the question why docker, let’s go back to old days when we didn’t have docker.

@@ -3,7 +3,7 @@ layout: post
 title: "Run your first docker container"
 author: afikur
 categories: [docker]
-image: assets/images/3.jpg
+image: assets/images/docker1.jpg
 ---
 
 So far, we tried to learn why do we need docker and what’s a docker container. In this lesson we’ll run our first docker container
@@ -100,4 +100,3 @@ void _start() {
 This code is taken from the hello-world repository from GitHub. Here is the GitHub [URL](https://github.com/docker-library/hello-world/blob/master/hello.c) for this code.
 
 This container doesn’t do anything useful. It just a hello-world image what else could you expect from it anyway. But running this image we’ve learned few key features that will be helpful for our docker journey. So, in the next lesson, let’s run something useful.
-

@@ -3,7 +3,7 @@ layout: post
 title: "Commonly used docker commands and explanation"
 author: afikur
 categories: [docker]
-image: assets/images/2.jpg
+image: assets/images/docker2.jpg
 ---
 
 In this article we’ll be discussing about few docker command that we need frequently to work with Docker.

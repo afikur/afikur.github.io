@@ -3,11 +3,8 @@ layout: post
 title: "Docker for Java Developers | Running a simple Java App"
 author: afikur
 categories: [docker]
-image: assets/images/7.jpg
-
----
-
-So far, we’ve seen hello-world and tomcat images. hello-world is nothing but a C program that only outputs a greeting text. Tomcat is on the other hand an useful image. But we didn’t deploy any of our app in that tomcat container. But don’t worry we’ll do that in near future. But before that let’s explore few other docker images and learn few key features that docker provides and we might be needing in near future.
+image: assets/images/docker1.jpg
+---So far, we’ve seen hello-world and tomcat images. hello-world is nothing but a C program that only outputs a greeting text. Tomcat is on the other hand an useful image. But we didn’t deploy any of our app in that tomcat container. But don’t worry we’ll do that in near future. But before that let’s explore few other docker images and learn few key features that docker provides and we might be needing in near future.
 
 ### Working With Java
 

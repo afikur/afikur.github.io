@@ -3,8 +3,7 @@ layout: post
 title: "Little more about docker container images and containers"
 author: afikur
 categories: [docker]
-image: assets/images/3.jpg
-
+image: assets/images/docker2.jpg
 ---
 
 docker container **image** is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
@@ -76,8 +75,6 @@ $ docker exec -it my-another-tomcat /bin/bash
 ```
 
 We are saying to execute (exec) my-another-tomcat container. Here we can use the container ID as well. Here I’ve passed `-it` flag for interactivity. It will make the container wait for the input in the the terminal. If you don’t pass this flag, the container will be executed but immediately you’ll be returned back to the host. Cause bash has nothing to execute. That’s why we passed `-it` flag. At the end I’m saying to run bash in the container. You’ll see something like this picture below.
-
-
 
 We’re now inside the container. Here you can see it’s totally isolated environment. It has it’s own pid/mnt/net/user etc. Type exit to come back to the host machine.
 

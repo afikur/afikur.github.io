@@ -3,7 +3,7 @@ layout: post
 title: "Create your first Docker Image | Dockerfile"
 author: afikur
 categories: [docker]
-image: assets/images/8.jpg
+image: assets/images/docker3.jpg
 ---
 
 So, far we’ve used all the images from docker hub. In this article we’ll create our first docker image. For creating an **image**, we need something called **Dockerfile**. A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
