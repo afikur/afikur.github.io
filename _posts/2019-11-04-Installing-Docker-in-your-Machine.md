@@ -4,7 +4,10 @@ title: "Installing Docker in your Machine"
 author: afikur
 categories: [docker]
 image: assets/images/docker3.jpg
----Docker comes in two flavors.
+
+---
+
+Docker comes in two flavors.
 
 - The Community Edition (CE)
 - The Enterprise Edition (EE)
