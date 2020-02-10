@@ -3,7 +3,7 @@ layout: post
 title: "How to install Apache Maven on Ubuntu 18.04"
 author: afikur
 categories: [maven]
-image:
+image: assets/images/maven-on-ubuntu.jpg
 ---
 
 # Installing Apache Maven on Ubuntu with Apt
