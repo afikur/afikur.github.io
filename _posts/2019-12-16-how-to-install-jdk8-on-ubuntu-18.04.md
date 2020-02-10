@@ -21,7 +21,7 @@ sudo mkdir  -p /opt/jdk
 Copy the tar file from the directory copied from local machine to server to /opt/jdk folder and execute below command:
 
 ```
-sudo cp -rf /home/sivasai/jdk-8u202-linux-x64.tar.gz /opt/jdk/
+sudo cp -rf /home/afikur/jdk-8u202-linux-x64.tar.gz /opt/jdk/
 ```
 
 ```
