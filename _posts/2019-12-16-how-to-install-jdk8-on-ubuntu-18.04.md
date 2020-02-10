@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to install jdk8 on ubuntu 18.04"
+title: "How to install Oracle jdk8 on ubuntu 18.04"
 author: afikur
 categories: [java]
 image:
