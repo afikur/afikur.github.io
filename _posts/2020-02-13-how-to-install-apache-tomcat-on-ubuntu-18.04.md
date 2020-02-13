@@ -13,7 +13,7 @@ machine
 
 Move to the /tmp directory and download the Tomcat application using the wget command, as shown here:
 
-Go to this URL https://tomcat.apache.org/download-80.cgi  for latest tomcat 8 version.
+Go to this URL https://tomcat.apache.org/download-80.cgi for latest tomcat 8 version.
 
 ```sh
 cd /tmp
@@ -103,3 +103,42 @@ Feb 13 11:28:46 ubuntu-server-1 systemd[1]: Starting Apache Tomcat Web Applicati
 Feb 13 11:28:46 ubuntu-server-1 startup.sh[2240]: Tomcat started.
 Feb 13 11:28:46 ubuntu-server-1 systemd[1]: Started Apache Tomcat Web Application Container.
 ```
+
+### Step 4: Enabling the firewall and port 8080
+
+Enable the firewall using the following command:
+
+```sh
+sudo ufw enable
+```
+
+Allow traffic on port 8080 :
+
+```sh
+sudo ufw allow 8080
+```
+
+Enable OpenSSH to allow SSH connections using the following command:
+
+```sh
+sudo ufw enable "OpenSSH"
+```
+
+Check the firewall status using the following command:
+
+```sh
+sudo ufw status
+```
+
+You should see the following output:
+
+```sh
+Status: active
+
+To                         Action      From
+--                         ------      ----
+8080                       ALLOW       Anywhere
+8080 (v6)                  ALLOW       Anywhere (v6)
+```
+
+You should now be able to access the Apache Tomcat server page at http://<IPaddress of the Apache Tomcat>:8080
