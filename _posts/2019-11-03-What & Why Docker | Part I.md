@@ -3,6 +3,7 @@ layout: post
 title: "What & Why Docker | Part I"
 author: afikur
 categories: [docker]
+tags: [featured]
 image: assets/images/docker1.jpg
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Run your first docker container"
 author: afikur
 categories: [docker]
+tags: [featured]
 image: assets/images/docker1.jpg
 ---
 

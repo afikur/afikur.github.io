@@ -3,6 +3,7 @@ layout: post
 title: "Installing Docker in your Machine"
 author: afikur
 categories: [docker]
+tags: [featured]
 image: assets/images/docker3.jpg
 
 ---

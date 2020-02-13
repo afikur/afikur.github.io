@@ -3,6 +3,7 @@ layout: post
 title: "Create your first Docker Image | Dockerfile"
 author: afikur
 categories: [docker]
+tags: [featured]
 image: assets/images/docker3.jpg
 ---
 
