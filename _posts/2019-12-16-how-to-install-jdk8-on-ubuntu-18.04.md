@@ -3,7 +3,7 @@ layout: post
 title: "How to install Oracle jdk8 on ubuntu 18.04"
 author: afikur
 categories: [java]
-image:
+image: assets/images/java_oracle.png
 ---
 
 # Step 1: Download Oracle Java 8
