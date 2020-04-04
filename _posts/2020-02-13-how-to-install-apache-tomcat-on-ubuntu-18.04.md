@@ -17,7 +17,7 @@ Go to this URL https://tomcat.apache.org/download-80.cgi for latest tomcat 8 ver
 
 ```sh
 cd /tmp
-wget https://www-eu.apache.org/dist/tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.tar.gz
+wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.53/bin/apache-tomcat-8.5.53.tar.gz
 ```
 
 ### Step 2: Extract downloaded tomcat
