@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "What & Why Docker | Part I"
+title: "How we do it: Docker for Java Developers"
 author: afikur
 categories: [docker, java]
 tags: [featured]
+image: assets/images/docker2.jpg
 ---
 
 #  How we do it: Docker for Java Developers
