@@ -183,7 +183,7 @@ Building artifact, building docker image, pushing it to the repository and deplo
 
 The developer just push the code in their version control system like Git and CI/CD tools pick up those changes and take care of the rest like test, build, push, deploy.
 
-![workflow](assets/images/docker_for_java_dev.png)
+![workflow](../assets/images/docker_for_java_dev.png)
 
 ### Summary
 
