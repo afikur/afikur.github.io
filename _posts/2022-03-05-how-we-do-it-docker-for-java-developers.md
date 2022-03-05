@@ -2,7 +2,7 @@
 layout: post
 title: "What & Why Docker | Part I"
 author: afikur
-categories: [docker]
+categories: [docker, java]
 tags: [featured]
 image: assets/images/docker_for_java_dev.png
 ---
