@@ -7,7 +7,7 @@ tags: [featured]
 image: assets/images/docker2.jpg
 ---
 
-#  How we do it: Docker for Java Developers
+#  How our team use docker everyday to build, test, run mission critical application
 
 
 Before starting, I want to let you know that this article is not focused on very basics of containerization  technologies like [docker](https://www.docker.com/), [podman](https://podman.io/), [containerd](https://containerd.io/) etc. If you're an absolute beginner just take a course on introductory docker. There are tons of articles and video tutorials available online to learn the basics of docker.
