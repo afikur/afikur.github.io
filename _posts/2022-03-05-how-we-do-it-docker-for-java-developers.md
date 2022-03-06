@@ -90,7 +90,7 @@ There are some very popular tools to build container images, like
 
   
 
-All of them are great, but I like to keep the container image build instruction in a `Dockerfile`. There is another article of mine where I've discussed about the best practices to build a docker image. Check it out.
+All of them are great, but I like to keep the container image build instruction in a `Dockerfile`. There is another article of mine where I've discussed about the best practices to build a docker image. [Check it out.](https://afikur.github.io/best-practices-to-build-docker-image/)
 
 
 

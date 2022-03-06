@@ -185,7 +185,7 @@ ENTRYPOINT ["java","-jar","app.jar"]
 
 If you're using spring boot 2.3 or higher and if you extract the the jar file, you'll see there are some layers created for you. You can take advantages of that. We extracted each of the layers like dependencies, spring-boot-loader, snapshop-dependencies and application.
 
-But what's the advantage of doing that you might ask. You already know about caching mechanism of building docker image. If any layer doesn't get change docker doesn't run that layer again, instead it start with the last layer that has been changed or updated. When we develop an application we don't frequently update our dependencies, rather we update our source code. So, if we separate the dependencies layer then the subsequent docker build for that application will be faster as well as it will produce smaller docker image. To know details you can check https://spring.io/guides/topicals/spring-boot-docker/ this link.
+But what's the advantage of doing that you might ask. You already know about caching mechanism of building docker image. If any layer doesn't get change docker doesn't run that layer again, instead it start with the last layer that has been changed or updated. When we develop an application we don't frequently update our dependencies, rather we update our source code. So, if we separate the dependencies layer then the subsequent docker build for that application will be faster as well as it will produce smaller docker image. To know details you can check [this link]( https://spring.io/guides/topicals/spring-boot-docker/).
 
 
 
@@ -246,4 +246,5 @@ Dockerfile
 
 ### Summary
 
-I've mentioned few best practices of building docker image. But there are more than this, that you should follow. I've tried to give all the example in java so that Java developers can connect to it easily. Please check the official best practices guide by Docker. https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+I've mentioned few best practices of building docker image. But there are more than this, that you should follow. I've tried to give all the example in java so that Java developers can connect to it easily. Please check the official best practices guide by Docker. [https://docs.docker.com/develop/develop-images/dockerfile_best-practices/]( https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+
